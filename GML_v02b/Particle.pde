@@ -23,12 +23,17 @@ class Particle {
     speed = 0;
     gravity = myModules[myModule].console.gravity.getValue()*0.1+0.1;
     loopGravity = myModules[myModule].console.loopSpeed.getValue()*5;
-    diameter = 5;
+    diameter = 0;
     center = new PVector(setX, setY);
     initialPos = center.y;
     life = setLife;
   }
   
+  
+  void reset(){
+  
+}
+
 
   void noGravity() {
     center.y+=loopGravity;    
@@ -42,7 +47,7 @@ class Particle {
   }
 
   void gravity() {
-    gravity = myModules[myModule].console.gravity.getValue()*0.1+0.1;
+    gravity = myModules[myModule].console.gravity.getValue()*1;
     speed+=gravity;
     center.y+=speed;
     if (center.y > floor-sync && sendReport == true) {
@@ -79,16 +84,7 @@ class Particle {
     ellipse(center.x, center.y, life, life);
     popStyle();
   }
-  
-  void displayLifeDiameter(){
-    /*pushStyle();
-    stroke(255, 128);
-    strokeWeight(2);
-    noFill();
-    arc(center.x, center.y, 20, 20, 0, radians(360.-(counter*(360./life))));
-    popStyle();*/
-  }
-  
+
   void displayLifeCircle() {
     pushStyle();
     stroke(0, 128);
@@ -97,6 +93,7 @@ class Particle {
     arc(center.x, center.y, life*2, life*2, 0, radians(360.-(counter*(360./life))));
     popStyle();
   }
+
 
   void displaySync() {
     pushStyle();

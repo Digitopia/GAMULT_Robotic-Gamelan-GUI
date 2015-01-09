@@ -17,7 +17,7 @@ class Fader {
   } 
 
   float getValue() {
-        usage = false;
+    usage = false;
     if (dist(mouseX, mouseY, fadePos, zeroY)<fadeRadius*3) {
       if (mousePressed) {
         usage = true;
@@ -29,15 +29,29 @@ class Fader {
     return(faderVal);
   }
 
+  void keySupport(boolean type) {
+    if (type) {
+      faderVal+=0.05;
+        if (faderVal<low) faderVal=low;
+      if (faderVal>high) faderVal =high;
+    }
+    else {
+      faderVal-=0.05;
+        if (faderVal<low) faderVal=low;
+      if (faderVal>high) faderVal =high;
+    }
+  }
+
   void display() {
     stroke(255);
     line(zeroX, zeroY, zeroX+leng, zeroY);
     fadePos = map(getValue(), low, high, zeroX, zeroX+leng);
     noStroke();
     fill(255);
-    rect(fadePos-5,zeroY-5,10,10);
-    textAlign(LEFT,TOP);
+    rect(fadePos-5, zeroY-5, 10, 10);
+    textAlign(LEFT, TOP);
     textSize(10);
     text(myTitle, zeroX, zeroY+10);
   }
 }
+

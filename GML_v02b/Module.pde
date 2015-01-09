@@ -64,5 +64,19 @@ class Module {
     popStyle();
   }
   
-}
+  void eraseParticle() {
+        for(int i=0; i<=population.size()-1; i++){
+           Particle thisParticle = (Particle)population.get(i);  
+         population.clear();
+           
+     
+          }
+
+    {
+  }
+  }
+  }
+
+
+
 

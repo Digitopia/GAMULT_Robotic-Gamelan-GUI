@@ -25,6 +25,10 @@ class Button{
     }
   }
   
+  void keySupport(){
+    state = !state;
+  }
+  
   
   void displayToggle(){
     pushStyle();
@@ -41,7 +45,7 @@ class Button{
   }
    
   void displayClick(){
-     pushStyle();
+    pushStyle();
     strokeWeight(1);
     stroke(255);
     noFill();

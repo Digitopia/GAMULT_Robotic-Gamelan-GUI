@@ -1,4 +1,4 @@
-Robotic Gamelan GUI
+GAMULT — Robotic Gamelan GUI
 
 © Digitópia -  Casa da Música
 

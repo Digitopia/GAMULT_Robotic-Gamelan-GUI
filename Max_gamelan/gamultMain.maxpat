@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 268.0, 50.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.5, 576.0, 92.0, 20.0 ],
+					"presentation_rect" : [ 252.5, 576.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "Output Device",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -182,7 +182,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 2,
+					"linecount" : 6,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -190,9 +190,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 686.0, 174.0, 100.0, 50.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 14.0, 62.0, 947.0, 50.0 ],
 					"style" : "",
-					"text" : "enter preset description here",
+					"text" : "enter preset description here \n(preset#1 is automatically loaded on startup)",
 					"varname" : "textedit"
 				}
 
@@ -210,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 640.0, 137.0, 111.0, 20.0 ],
-					"restore" : [ "enter", "preset", "description", "here" ],
+					"restore" : [ "enter", "preset", "description", "here", "(preset#1", "is", "automatically", "loaded", "on", "startup)" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}

@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gamultMain",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"presetDescription" : [ "enter", "preset", "description", "here" ],
+					"udp-port" : [ 5000 ],
+					"gamultModule::inputModule" : [ "/GML/0" ],
+					"gamultModule::velocityCurve" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+					"gamultModule::lowestNote" : [ 0 ],
+					"gamultModule[1]::inputModule" : [ "/GML/1" ],
+					"gamultModule[1]::lowestNote" : [ 12 ],
+					"gamultModule[1]::velocityCurve" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+					"gamultModule[2]::inputModule" : [ "/GML/2" ],
+					"gamultModule[2]::lowestNote" : [ 24 ],
+					"gamultModule[2]::velocityCurve" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+					"gamultModule[3]::inputModule" : [ "/GML/3" ],
+					"gamultModule[3]::lowestNote" : [ 36 ],
+					"gamultModule[3]::velocityCurve" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+					"rp.send::outputDevice" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

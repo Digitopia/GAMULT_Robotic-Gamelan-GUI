@@ -46,7 +46,7 @@
 	<key>Creator</key>
 	<string>Tiago Ângelo</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1 0/72 in</string>
+	<string>1 0/72 in = 1.0000 in</string>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
@@ -2025,7 +2025,7 @@ to specified module}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-06-26 16:00:37 +0000</string>
+	<string>2015-09-04 16:02:29 +0000</string>
 	<key>Modifier</key>
 	<string>Tiago Ângelo</string>
 	<key>NotesVisible</key>
@@ -2120,9 +2120,9 @@ to specified module}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 10.101010003706325}, {1129.2929184143673, 746.46463927389743}}</string>
+		<string>{{0, 0}, {0, 0}}</string>
 		<key>Zoom</key>
-		<real>0.99000000953674316</real>
+		<real>0.0</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>

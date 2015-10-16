@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 52.0, 571.0, 949.0, 112.0 ],
+		"rect" : [ 52.0, 744.0, 882.0, 122.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,9 +71,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 465.0, 165.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 831.0, 84.0, 88.0, 20.0 ],
+					"presentation_rect" : [ 801.0, 84.0, 117.0, 20.0 ],
 					"style" : "",
-					"text" : "midi test on/off"
+					"text" : "Listen to MIDI notes"
 				}
 
 			}
@@ -193,7 +193,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -538,7 +538,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}

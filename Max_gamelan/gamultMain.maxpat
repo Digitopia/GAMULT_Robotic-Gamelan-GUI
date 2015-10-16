@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 78.0, 978.0, 622.0 ],
+		"rect" : [ 38.0, 78.0, 982.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 268.0, 50.0, 33.0 ],
+					"patching_rect" : [ 11.0, 268.0, 51.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.5, 576.0, 92.0, 20.0 ],
+					"presentation_rect" : [ 198.166672, 679.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "Output Device",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -81,9 +81,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 14.0, 730.0, 882.0, 122.0 ],
+					"patching_rect" : [ 14.0, 730.0, 956.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 493.0, 949.0, 112.0 ],
+					"presentation_rect" : [ 14.0, 598.0, 949.0, 112.0 ],
 					"varname" : "rp.send",
 					"viewvisibility" : 1
 				}
@@ -122,7 +122,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -239,7 +238,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 734.0, 120.0, 227.0, 366.0 ],
+					"presentation_rect" : [ 740.0, 120.0, 227.0, 467.333344 ],
 					"varname" : "gamultModule[3]",
 					"viewvisibility" : 1
 				}
@@ -262,7 +261,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 493.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 493.0, 120.0, 227.0, 366.0 ],
+					"presentation_rect" : [ 497.0, 120.0, 227.0, 467.333344 ],
 					"varname" : "gamultModule[2]",
 					"viewvisibility" : 1
 				}
@@ -285,7 +284,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 254.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 120.0, 227.0, 366.0 ],
+					"presentation_rect" : [ 256.0, 120.0, 227.0, 467.333344 ],
 					"varname" : "gamultModule[1]",
 					"viewvisibility" : 1
 				}
@@ -308,7 +307,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 120.0, 227.0, 366.0 ],
+					"presentation_rect" : [ 14.0, 120.0, 227.0, 467.333344 ],
 					"varname" : "gamultModule",
 					"viewvisibility" : 1
 				}
@@ -531,28 +530,36 @@
 		"dependency_cache" : [ 			{
 				"name" : "gamultMain.json",
 				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gamultModule.maxpat",
 				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gamultVelocityMap.maxpat",
+				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "getscriptingname.js",
+				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rp.send.maxpat",
 				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rp.trama.maxpat",
 				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

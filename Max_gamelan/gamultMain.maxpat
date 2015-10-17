@@ -38,23 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-20",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 268.0, 51.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 198.166672, 679.0, 92.0, 20.0 ],
-					"style" : "",
-					"text" : "Output Device",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -180,6 +163,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "textedit",
@@ -239,7 +223,7 @@
 					"patching_rect" : [ 734.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 740.0, 120.0, 227.0, 467.333344 ],
-					"varname" : "gamultModule[3]",
+					"varname" : "gamultModule[4]",
 					"viewvisibility" : 1
 				}
 
@@ -262,7 +246,7 @@
 					"patching_rect" : [ 493.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 497.0, 120.0, 227.0, 467.333344 ],
-					"varname" : "gamultModule[2]",
+					"varname" : "gamultModule[3]",
 					"viewvisibility" : 1
 				}
 
@@ -285,7 +269,7 @@
 					"patching_rect" : [ 254.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 256.0, 120.0, 227.0, 467.333344 ],
-					"varname" : "gamultModule[1]",
+					"varname" : "gamultModule[2]",
 					"viewvisibility" : 1
 				}
 
@@ -308,7 +292,7 @@
 					"patching_rect" : [ 14.0, 300.0, 228.0, 365.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 120.0, 227.0, 467.333344 ],
-					"varname" : "gamultModule",
+					"varname" : "gamultModule[1]",
 					"viewvisibility" : 1
 				}
 
@@ -547,6 +531,12 @@
 			}
 , 			{
 				"name" : "getscriptingname.js",
+				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "setwindowtitle.js",
 				"bootpath" : "~/PinhoRepos/DigitopiaRepos/GAMULT_Robotic-Gamelan-GUI/Max_gamelan",
 				"type" : "TEXT",
 				"implicit" : 1
